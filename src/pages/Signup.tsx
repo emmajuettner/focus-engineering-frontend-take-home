@@ -15,7 +15,7 @@ const Signup = () => {
     const handleSignup = (event: FormEvent<HTMLFormElement>) => {
         event.preventDefault();
 
-        alert("info:"+username + password);
+        alert("info:"+username + password); /* This logging was temporary for debugging, obviously it would not be appropriate for a finished app */
         console.log(event);
         console.log(username);
         console.log(password);
@@ -28,7 +28,7 @@ const Signup = () => {
         })
         .then((response) => response.json())
         .then((data) => {
-            alert("Logged in!");
+            alert("Logged in!"); /** Obviously the handling of the response/errors is incomplete */
         })
         .catch((err) => {
             console.log("catching error");

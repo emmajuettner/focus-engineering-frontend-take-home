@@ -5,7 +5,7 @@ import Input from "../components/Input";
 const Login = () => {
 
     const handleLogin = () => {
-        alert('Button clicked!');
+        alert('Button clicked!'); /* using alerts for debugging to understand the flow */
     };
 
     return (
