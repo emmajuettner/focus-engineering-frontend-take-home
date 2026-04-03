@@ -1,5 +1,4 @@
 import { Link, Route, BrowserRouter as Router, Routes } from 'react-router-dom'
-import React, { useEffect, useState } from 'react'
 
 import CollegePage from './pages/College'
 import CommutePage from './pages/Commute'
@@ -36,7 +35,7 @@ function App() {
                         <Link to="/college">College Concentrations</Link>|{' '}
                         <Link to="/commutes">Commutes</Link>|{' '}
                         <Link to="/login">Login</Link>|{' '}
-                        <Link to="/signup">Signup</Link>| <a href="#">Logout</a>
+                        <Link to="/signup">Signup</Link>| <a href="/">Logout</a>
                     </>
                 </nav>
                 <Routes>
